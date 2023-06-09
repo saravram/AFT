@@ -26,8 +26,11 @@ This script installs terraform along with creating Cloud9 IDE.
 2. Fork the four account configuration repositories into your personal Github account.
 
     The [learn-terraform-aft-account-request](https://github.com/hashicorp/learn-terraform-aft-account-request) repository, which contains example configuration to kick off new account provisioning using AFT.
+    
     The [learn-terraform-aft-global-customizations](https://github.com/hashicorp/learn-terraform-aft-global-customizations) repository, which contains boilerplate configuration for customizations to apply to all accounts created by AFT.
+    
     The [learn-terraform-aft-account-customizations](https://github.com/hashicorp/learn-terraform-aft-account-customizations) repository, which contains boilerplate configuration for account-specific customizations.
+    
     The [learn-terraform-aft-account-provisioning-customizations](https://github.com/hashicorp/learn-terraform-aft-account-provisioning-customizations) repository, which contains boilerplate configuration for provisioning-time customizations to apply to accounts.
 
 3. Clone your copies of the repositories.  
