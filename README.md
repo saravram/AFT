@@ -45,3 +45,9 @@ This script installs terraform along with creating Cloud9 IDE.
 6. Add AFTExecutionRole to Control Tower portfolio.
 7. Enroll your first Sandbox account by configuring tf files in `learn-terraform-aft-account-request`.
  
+### Resources:
+1. Installing terraform - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+2. To configure different vcs provider - https://github.com/aws-ia/terraform-aws-control_tower_account_factory/tree/main/examples
+3. Install AFT main.tf inputs - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+4. Account request sample code - https://github.com/aws-ia/terraform-aws-control_tower_account_factory/tree/main/sources/aft-customizations-repos/aft-account-request
+5. Re-invoke customization - https://docs.aws.amazon.com/controltower/latest/userguide/aft-account-customization-options.html#aft-re-invoke-customizations
