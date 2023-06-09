@@ -6,13 +6,13 @@
 
 2. Create Cloud9 IDE using following commands:
 ```
-   > git clone --branch aft-cloud9 https://github.com/aws-samples/aft-workshop-sample.git aft-cloud9
+   git clone --branch aft-cloud9 https://github.com/aws-samples/aft-workshop-sample.git aft-cloud9
 ```
 ```
-   > cd aft-cloud9
+   cd aft-cloud9
 ```
 ```
-   > ./cloud9.sh {{CT-HOME-REGION}} false
+   ./cloud9.sh {{CT-HOME-REGION}} false
 ```
 This script installs terraform along with creating Cloud9 IDE.
 
