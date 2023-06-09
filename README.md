@@ -44,7 +44,10 @@ This script installs terraform along with creating Cloud9 IDE.
 5. Enable Codestar connection in AFT Management account.
 6. Add AFTExecutionRole to Control Tower portfolio.
 7. Enroll your first Sandbox account by configuring tf files in `learn-terraform-aft-account-request`.
- 
+
+![image](https://github.com/saravram/AFT/assets/45466472/f70ae4c0-417f-4098-93dd-58b5bf337d37)
+
+
 ### Resources:
 1. Installing terraform - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 2. To configure different vcs provider - https://github.com/aws-ia/terraform-aws-control_tower_account_factory/tree/main/examples
