@@ -25,7 +25,9 @@ This script installs terraform along with creating Cloud9 IDE.
 
 1. Clone the [example repository](https://github.com/hashicorp/learn-terraform-aws-control-tower-aft) containing the AFT module configuration.
 
-   `git clone https://github.com/hashicorp/learn-terraform-aws-control-tower-aft `
+   ```
+   git clone https://github.com/hashicorp/learn-terraform-aws-control-tower-aft 
+   ```
    
 2. Fork the four account configuration repositories into your personal Github account.
 
