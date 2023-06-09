@@ -7,7 +7,11 @@
 2. Create Cloud9 IDE using following commands:
 ```
    > git clone --branch aft-cloud9 https://github.com/aws-samples/aft-workshop-sample.git aft-cloud9
+```
+```
    > cd aft-cloud9
+```
+```
    > ./cloud9.sh {{CT-HOME-REGION}} false
 ```
 This script installs terraform along with creating Cloud9 IDE.
@@ -35,10 +39,16 @@ This script installs terraform along with creating Cloud9 IDE.
 
 3. Clone your copies of the repositories.  
    ```
-   > git clone https://github.com/USERNAME/learn-terraform-aft-account-request
-   > git clone https://github.com/USERNAME/learn-terraform-aft-global-customizations
-   > git clone https://github.com/USERNAME/learn-terraform-aft-account-customizations
-   > git clone https://github.com/USERNAME/learn-terraform-aft-account-provisioning-customizations
+   git clone https://github.com/USERNAME/learn-terraform-aft-account-request
+   ```
+   ```
+   git clone https://github.com/USERNAME/learn-terraform-aft-global-customizations
+   ```
+   ```
+   git clone https://github.com/USERNAME/learn-terraform-aft-account-customizations
+   ```
+   ```
+   git clone https://github.com/USERNAME/learn-terraform-aft-account-provisioning-customizations
    ```
 4. Deploy AFT module - Update main.tf file in `learn-terraform-aws-control-tower-aft` and run `terraform init -update` followed by `terraform apply`.
 5. Enable Codestar connection in AFT Management account.
