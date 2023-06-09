@@ -51,6 +51,13 @@ This script installs terraform along with creating Cloud9 IDE.
 8. Global customization sample module:
 
 ```
+account = $(aws sts get-caller-identity --query Account --output text)
+region = $(aws ec2 describe-availability-zones --query 'AvailabilityZones[0].[RegionName]' --output text)
+cidr = $(python ./python/source/get_cidr_range.py)
+aws ssm put-parameter --name /$account/$region/vpc/cidr --value $cidr
+```
+
+```
 resource "aws_s3_account_public_access_block" "block_all_public" {
   block_public_acls   = true
   block_public_policy = true
